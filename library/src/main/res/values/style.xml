@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BeeLayout">
+        <!--是否有边框，默认无-->
+        <attr name="hasBorder" format="boolean" />
+        <!--边框颜色-->
+        <attr name="borderColor" format="color|reference" />
+        <!--边框宽度-->
+        <attr name="borderWidth" format="dimension|reference" />
+        <!--间距宽度-->
+        <attr name="spaceWidth" format="dimension|reference" />
+        <!--圆角程度比例 (0-1) -->
+        <attr name="roundCorner" format="float" />
+    </declare-styleable>
+</resources>
