@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.anglll.beelayout", appContext.getPackageName());
+        assertEquals("com.anglll.library.test", appContext.getPackageName());
     }
 }

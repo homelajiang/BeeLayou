@@ -1,4 +1,4 @@
-package com.anglll.library;
+package com.anglll.simple;
 
 import org.junit.Test;
 

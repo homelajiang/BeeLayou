@@ -1,15 +1,14 @@
-package com.anglll.beelayout;
+package com.anglll.simple;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
 
-import com.anglll.library.BeeAdapter;
-import com.anglll.library.BeeLayout;
-import com.anglll.library.BeeViewHolder;
+import com.anglll.beelayout.BeeAdapter;
+import com.anglll.beelayout.BeeLayout;
+import com.anglll.beelayout.BeeViewHolder;
 
 public class MainActivity extends AppCompatActivity {
 

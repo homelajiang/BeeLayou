@@ -16,17 +16,26 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.anglll.library.BeeLayout
+    <com.anglll.beelayout.BeeLayout
         android:id="@+id/bee_layout"
+        android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#eeeeee"
-        app:borderColor="#3c3"
-        app:borderWidth="1dp"
-        app:hasBorder="true"
-        app:roundCorner="0.1"
-        app:spaceWidth="5dp">
+        app:beeBorderColor="#3c3"
+        app:beeBorderWidth="1dp"
+        app:beeHasBorder="true"
+        app:beeRoundCorner="0.1"
+        app:beeSpaceWidth="5dp">
 
-    </com.anglll.library.BeeLayout>
+    </com.anglll.beelayout.BeeLayout>
+
+
+    <com.anglll.beelayout.BeeImageView
+        android:background="#eee"
+        android:src="@drawable/ic_test_bg"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </LinearLayout>

@@ -1,4 +1,4 @@
-package com.anglll.library;
+package com.anglll.simple;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.anglll.library.test", appContext.getPackageName());
+        assertEquals("com.anglll.beelayout", appContext.getPackageName());
     }
 }
